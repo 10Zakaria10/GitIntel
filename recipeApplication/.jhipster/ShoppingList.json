@@ -1,0 +1,23 @@
+{
+    "name": "ShoppingList",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "shoppinglist",
+            "relationshipName": "ingredient",
+            "otherEntityName": "ingredient",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190513104007",
+    "entityTableName": "shopping_list",
+    "dto": "mapstruct",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

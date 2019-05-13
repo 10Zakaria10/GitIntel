@@ -1,0 +1,11 @@
+version: '2'
+services:
+    recipeapp-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/recipeApp/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=recipeApp
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

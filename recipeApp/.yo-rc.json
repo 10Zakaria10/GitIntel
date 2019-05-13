@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.zak",
+            "nativeLanguage": "fr"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "recipeApp",
+        "packageName": "com.zak",
+        "packageFolder": "com/zak",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "NTM4YzMxODViMzdhYzM2ZGIxYTVkMDUyNWU2OTgyNDZhNGE4MDk3ZWQ2NWY0YTg5NTM0MTQ0MDA4Y2NiNmFhZjcxMDdlZWU5ZTEyMTU0NTBmOTcyZWFlMzVmODIzODlmZTkxY2U0MDljZTBhMTU5Y2U1NjY4YWE2NjE3NjRkYzk=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "fr",
+        "languages": ["fr", "en"]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Ingredient",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "amount",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "recipe",
+            "otherEntityName": "recipe",
+            "otherEntityField": "id",
+            "otherEntityRelationshipName": "ingredient"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "shoppinglist",
+            "otherEntityName": "shoppingList",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "ingredient"
+        },
+        {
+            "relationshipName": "recipe",
+            "otherEntityName": "recipe",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190513104005",
+    "entityTableName": "ingredient",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

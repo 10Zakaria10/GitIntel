@@ -1,0 +1,24 @@
+{
+    "recipeApplicationApp": {
+        "recipe": {
+            "home": {
+                "title": "Recipes",
+                "createLabel": "Create a new Recipe",
+                "createOrEditLabel": "Create or edit a Recipe"
+            },
+            "created": "A new Recipe is created with identifier {{ param }}",
+            "updated": "A Recipe is updated with identifier {{ param }}",
+            "deleted": "A Recipe is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Recipe {{ id }}?"
+            },
+            "detail": {
+                "title": "Recipe"
+            },
+            "name": "Name",
+            "imageUrl": "Image Url",
+            "description": "Description",
+            "ingredient": "Ingredient"
+        }
+    }
+}
