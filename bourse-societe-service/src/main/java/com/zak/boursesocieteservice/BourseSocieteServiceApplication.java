@@ -24,7 +24,7 @@ public class BourseSocieteServiceApplication {
 
         ApplicationContext appContext = SpringApplication.run(BourseSocieteServiceApplication.class, args);
         SocieteRepository societeRepository = appContext.getBean(SocieteRepository.class);
-        Stream.of("A","B","CD","D").forEach(s ->{
+        Stream.of("A","Bb","CD","D").forEach(s ->{
             societeRepository.save(new Societe(s));
         });
 
